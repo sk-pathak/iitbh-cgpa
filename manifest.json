@@ -16,7 +16,8 @@
 		"default_title": "CGPA"
 	},
 	"background": {
-		"service_worker": "worker-wrapper.js"
+		"service_worker": "worker-wrapper.js",
+		"scripts": ["worker-wrapper.js"]
 	},
 	"content_scripts": [
 		{

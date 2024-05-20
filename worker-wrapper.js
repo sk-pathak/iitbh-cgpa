@@ -1,5 +1,7 @@
 try {
-    importScripts("browser-polyfill.js", "background.js");
+    if('function' === typeof importScripts) {
+        importScripts("browser-polyfill.js", "background.js");
+    }
 } catch (e) {
     console.log(e);
 }
